@@ -1,0 +1,70 @@
+body {
+    background: #fff0ce;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#root {
+    color: #f7db9c;
+    background: rgba(62, 11, 150, 0.8) !important;
+    border: 2px solid #f9e4b2 !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 400px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgPokeApi {
+    width: 300px;
+    height: auto;
+}
+
+.imgPokemon {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.titulo,
+#bienvenida,
+.palabra {
+    text-align: center;
+}
+
+#adivinarPalabra {
+    font-size: 1.3em;
+    letter-spacing: 4px;
+    color: #f9c0b1;
+}
+
+.variableColor {
+    color: #b1c6f9;
+    margin-left: 5px;
+}
+
+.noMensajeBienvenida {
+    visibility: hidden;
+}
+
+.mensajeBienvenida {
+    animation: parpadeo 1s infinite alternate;
+}
+
+.necesitoEspacio {
+    margin-left: 20px;
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5s;
+    }
+    100% {
+        opacity: 1;
+    }
+}
